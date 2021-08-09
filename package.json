@@ -1,11 +1,11 @@
 {
-  "name": "babel-plugin-module-resolver",
-  "version": "4.1.0",
+  "name": "@jleonardvp/babel-plugin-module-resolver",
+  "version": "4.1.1",
   "main": "lib/index.js",
-  "description": "Module resolver plugin for Babel",
+  "description": "Module resolver plugin for Babel, with pull request 427 added",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tleunen/babel-plugin-module-resolver.git"
+    "url": "git+https://github.com/jleonardvp/babel-plugin-module-resolver.git"
   },
   "engines": {
     "node": ">= 8.0.0"
@@ -13,11 +13,7 @@
   "files": [
     "lib"
   ],
-  "author": {
-    "name": "Tommy Leunen",
-    "email": "tommy.leunen@gmail.com",
-    "url": "http://tommyleunen.com"
-  },
+  "author": "Tommy Leunen <tommy.leunen@gmail.com> (http://tommyleunen.com), Jon Leonard <jnleonard3@gmail.com>",
   "license": "MIT",
   "keywords": [
     "babel",
@@ -86,5 +82,13 @@
       "src/**/*.js",
       "!src/log.js"
     ]
+  },
+  "bugs": {
+    "url": "https://github.com/jleonardvp/babel-plugin-module-resolver/issues"
+  },
+  "homepage": "https://github.com/jleonardvp/babel-plugin-module-resolver#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
